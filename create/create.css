@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ////////////////////////jayesh new work css/////////////////// */
 
 body {
@@ -14,4 +15,22 @@ body {
 }
 
 
+=======
+/* ////////////////////////jayesh new work css/////////////////// */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.test {
+    background: black;
+}
+
+
+>>>>>>> 73bd98b09dfbf6b630a58937e46bda0ba22ca214
 /* //////////////////////////////////////////////////////////////////////// */
