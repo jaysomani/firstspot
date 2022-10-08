@@ -1006,6 +1006,7 @@ a[href*="mailto"] {
 
 .gallery-title,
 .link-instafeed-3 {
+    font-size: 2rem;
     display: inline-block;
     min-width: 210px;
     padding: 8px 40px 10px;
@@ -1030,7 +1031,7 @@ a[href*="mailto"] {
 
 .gallery-title {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.5rem;
 }
 
 .gallery-title a {
@@ -7593,6 +7594,8 @@ textarea.textarea-lg {
 .quote-jean+.isotope-filters {
     margin-top: 35px;
 }
+
+
 
 
 /*
