@@ -1,30 +1,29 @@
 var stdno = 0;
-var tbody = document.getElementById("tbody1");
+var tbody = document.getElementById("tbody");
 
 function AddItemToTable(name, email, phone) {
-    let trow = document.createElement("tr");
-    let td1 = document.createElement("td");
-    let td2 = document.createElement("td");
-    let td3 = document.createElement("td");
-    let td4 = document.createElement("td");
+    let data = ""
+    data =`
+    <div class="card category">
+        <div class="img-container">
+            <img src="../images/ranjanUserPic" alt="guide PFP">
+        </div>
 
-    td1.innerHTML = ++stdno;
-    td2.innerHTML = name;
-    td3.innerHTML = email;
-    td4.innerHTML = phone;
-
-    trow.appendChild(td1);
-    trow.appendChild(td2);
-    trow.appendChild(td3);
-    trow.appendChild(td4);
-
-    tbody.appendChild(trow);
+        <div class="container">
+            <h5 class="namee">${name}</h5>
+            <h6 class="destination">${email}</h6>
+            <h6>Price</h6>
+            <h6>Description and ${phone}</h6>
+        </div>
+    </div>
+    `
+    tbody.innerHTML+=data
 
 }
 
 function AddAllItemsToTable(Guide) {
     stdno = 0;
-    tbody.innerHTML = "";
+    // tbody.innerHTML = "";
     Guide.forEach(element => {
         AddItemToTable(element.fullname, element.email, element.phone);
     });
