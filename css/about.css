@@ -4,6 +4,7 @@ about us styles
 
 .aboutBody{
     background-color: #faebd7;
+    
 }
 
 .header {
@@ -68,6 +69,7 @@ about us styles
   }
   
 .aboutus .about_compartment {
+    font-size: 1.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

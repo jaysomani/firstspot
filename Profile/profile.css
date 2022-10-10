@@ -1,107 +1,52 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    background-color: #f5f8ff;
-    
-}
-
-.wrapper {
-    width: 95%;
-    margin: 0 auto;
-}
-
-#search-container {
-    margin: 1em 0;
-}
-
-#search-container input {
-    background-color: transparent;
-    width: 40%;
-    border-bottom: 2px solid #110f29;
-    padding: 1em 0.3em;
-}
-
-#search-container input:focus {
-    border-bottom-color: #6759ff;
-}
-
-#search-container button {
-    padding: 1em 2em;
-    margin-left: 1em;
-    background-color: #6759ff;
-    color: #ffffff;
-    border-radius: 5px;
-    margin-top: 0.5em;
-}
-
-.button-value {
-    border: 2px solid #6759ff;
-    padding: 1em 2.2em;
-    border-radius: 3em;
-    background-color: transparent;
-    color: #6759ff;
-    cursor: pointer;
-}
-
-.active {
-    background-color: #6759ff;
-    color: #ffffff;
-}
-
-#names {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 1.5em;
-    padding: 2em 0;
+body{
+    overflow: hidden;
 }
 
 #tbody{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
-.card {
+#tbody .cardGuide {
     text-align: center;
     flex: 0 0 180mm;
-    margin-left: 2rem;
-    background-color: #ffffff;
+    margin-left: 4rem;
+    background-color: #ecd4d4;
     min-width: 180mm;
     margin-top: 1em;
     margin-bottom: 10mm;
     border-radius: 25px;
-    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    box-shadow: 10px 25px 30px rgb(99, 96, 96);
     max-height: 50mm;
 }
 
-.image-container {
+#tbody .image-containerGuide {
     text-align: left;
 }
 
-.image-container {
+#tbody .image-containerGuide {
     text-align: center;
     height: 20px;
 }
 
-.img-container {
+#tbody .img-containerGuide {
+    text-align: center;
     display: inline-block;
 }
 
-img {
+#tbody .img-containerGuide img {
     max-width: 100%;
     object-fit: contain;
     height: 100px;
     width: 100px;
     border-radius: 75%;
+    margin-bottom: 100px;
+
 }
 
-.container {
+#tbody .containerGuide {
     padding-right: 1em;
     color: #110f29;
     text-align: center;
@@ -110,7 +55,7 @@ img {
     margin-bottom: 27px;
 }
 
-.container h5 {
+#tbody .containerGuide h5 {
     display: flex;
     margin-top: 18px;
     font-size: 33px;
@@ -126,7 +71,7 @@ img {
         object-fit: contain;
         height: 10em;
     } */
-    .card {
+    .cardGuide {
         max-width: 10em;
         margin-top: 1em;
     }

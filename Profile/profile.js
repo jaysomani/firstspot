@@ -4,14 +4,14 @@ var tbody = document.getElementById("tbody");
 function AddItemToTable(name, email, phone) {
     let data = ""
     data =`
-    <div class="card category">
-        <div class="img-container">
+    <div class="cardGuide categoryGuide">
+        <div class="img-containerGuide">
             <img src="../images/ranjanUserPic" alt="guide PFP">
         </div>
 
-        <div class="container">
-            <h5 class="namee">${name}</h5>
-            <h6 class="destination">${email}</h6>
+        <div class="containerGuide">
+            <h5 class="nameeGuide">${name}</h5>
+            <h6 class="destinationGuide">${email}</h6>
             <h6>Price</h6>
             <h6>Description and ${phone}</h6>
         </div>
