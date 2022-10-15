@@ -38,10 +38,10 @@ window.onload = function() {
         userlink.classList.add("btn-primary");
         userlink.href = "../LoginOverView/index.html";
 
-        signoutlink.innerText = "Login";
-        signoutlink.classList.replace("rd-nav-link", "btn");
-        signoutlink.classList.add("btn-success");
-        signoutlink.href = "./LoginOverView/index.html";
+        // signoutlink.innerText = "Login";
+        // signoutlink.classList.replace("rd-nav-link", "btn");
+        // signoutlink.classList.add("btn-success");
+        // signoutlink.href = "./LoginOverView/index.html";
 
     } else {
         userlink.innerText = currentUser;
@@ -50,10 +50,10 @@ window.onload = function() {
         userlink.classList.add("btn-primary");
         userlink.href = "../loginOverview/index.html";
 
-        signoutlink.innerText = "sign Out";
-        signoutlink.classList.replace("btn", "rd-nav-link");
-        signoutlink.classList.add("btn-success");
-        signoutlink.addEventListener("click", Signout);
+        // signoutlink.innerText = "sign Out";
+        // signoutlink.classList.replace("btn", "rd-nav-link");
+        // signoutlink.classList.add("btn-success");
+        // signoutlink.addEventListener("click", Signout);
     }
 
 }
