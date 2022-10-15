@@ -15,7 +15,7 @@ Our website named, First spot is designed for the same, tourists can now explore
 
 •	Feeling lucky- Feeling lucky is an additional features that keeps our users thinking about, what spot to go next. It gives them some most random location to pack their bags and go on for an adventurous journey.<br>
 
-•	Create Route- Create Route is the unique feature of our website which help visitors to create their own route apart from the premade routes in this feature visitor will be able to create their own route to their destination and if visitor need an suggestion to create route they can also contact the  verified guide and with their guidance can create their safe and happy journey <br>
+•	Explore- Explore is the unique feature of our website which help visitors to create their own route apart from the premade routes in this feature visitor will be able to create their own route to their destination and if visitor need an suggestion to Explore they can also contact the  verified guide and with their guidance can create their safe and happy journey <br>
 
 •	Predefined routes- Pre-defined routes are the routes that are already defined by our guides, so you don't have to go through the hustle of creating your own route and spending hours in managing the timings.<br>
 
@@ -23,7 +23,7 @@ Our website named, First spot is designed for the same, tourists can now explore
 
 
 =>	<b>Objective of the Work</b><br>
-The Primary Aim of our website to make it easy for the tourists to create route, manage plans and contact with popular tourists guide to make their trip easy, convenient and safe.<br>
+The Primary Aim of our website to make it easy for the tourists to Explore, manage plans and contact with popular tourists guide to make their trip easy, convenient and safe.<br>
 
 
 
