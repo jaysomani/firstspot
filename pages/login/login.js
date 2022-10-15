@@ -72,7 +72,7 @@ function login(user) {
     // }
 
     sessionStorage.setItem("user", user);
-    window.location = "../index.html";
+    window.location = "../../index.html";
 
 }
 // ////////////////////submit
