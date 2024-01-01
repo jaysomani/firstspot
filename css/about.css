@@ -3,8 +3,21 @@ about us styles
 */
 
 .aboutBody{
-    background-color: #faebd7;
+
+    color: white;
+    margin: ;
+    background-color: transparent;
+
     
+}
+
+.video{
+    z-index: -1;
+    position: fixed; top: 0; width: 80%; height: 50%; z-index: -1;
+}
+
+.aboutus{
+    background-color: transparent;
 }
 
 .header {
