@@ -143,6 +143,9 @@ form input[type="radio"] {
     text-align: center;
     margin-left: 34%;
 }
+.w-100:hover{
+    color: rgb(252, 252, 252);
+}
 
 @media (max-width:584px) {
     .container {
