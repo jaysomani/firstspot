@@ -51,6 +51,49 @@ body.offcanvas-menu:before {
     color: white;
 }
 
+.userlink {
+    background-color: #4CAF50;  
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-weight: bold; /* Adjust font weight */
+    text-align: center; /* Center text */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 150px; /* Set a specific width */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown-menu a {
+    color: #333; 
+    padding: 10px 20px; 
+    display: block; 
+    text-decoration: none; 
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #e2f1f9;
+    color: #4CAF50;
+}
+
+.dropdown-menu {
+    margin-top: 8px; 
+}
+.rd-navbar-nav .rd-nav-item.active a {
+    color: #2fbd34;
+}
+
+/* Optional: Background hover effect for the entire navbar item */
+.rd-navbar-nav .rd-nav-item:hover {
+    background-color: #99b9da;
+}
+
 .btn-primary {
     text-align: center;
     font-size: 21px;
