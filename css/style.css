@@ -46,6 +46,25 @@ body.offcanvas-menu:before {
 .text-black {
     color: #000 !important;
 }
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: #16abab;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.1s;
+  }
+  #cursor-blur {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(30, 193, 147, 0.3);
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(80px);
+    z-index: 9;
+    transition: all linear 0.4s;
+  }
 
 .userlink {
     color: white;
