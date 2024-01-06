@@ -11,7 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Glass+Antiqua&family=Tangerine&family=Yuji+Mai&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/firstspotLogo100x100.png" type="image/x-icon">    
 </head>
+<div class="video"><video autoplay loop muted plays-inline class="back-video" height="250%">
+    <source src="images/bg-video3.mp4" type="video/mp4">
+</video></div>
+
 <body class="aboutBody">
+
+   
 
     <div class="header">
 
@@ -21,7 +27,12 @@
     </div>
 
     <div class="aboutus">
-        <h2>About Us</h2>
+        <h2>About Us <br>
+
+            <div class="moving" >
+                <span class="auto-type"></span>
+            </div>
+        </h2>
 
         <div class="about_compartment">
             <p>
@@ -35,7 +46,7 @@
     </div>
 
 
-    <div class="waveNFoot">
+    <!-- <div class="waveNFoot">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -47,11 +58,20 @@
         <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(150,200,235,0.3)" />
         <use xlink:href="#gentle-wave" x="48" y="7" fill="#B1D4E0" />
         </g>
-        </svg>
+        </svg> -->
         
         
         
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+        <script>
+            var typed= new Typed(".auto-type",{
+                strings: ["Travel !!", "Explore !!" , "Trek !!"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>
 
 </body>
 </html>
