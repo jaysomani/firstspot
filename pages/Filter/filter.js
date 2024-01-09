@@ -168,18 +168,30 @@ document.getElementById("search").addEventListener("click", () => {
     let searchInput = document.getElementById("search-input").value;
     let elements = document.querySelectorAll(".place-name");
     let cards = document.querySelectorAll(".card");
+    let found = false;
     //loop through all elements
     elements.forEach((element, index) => {
         //check if text includes the search value
         if (element.innerText.includes(searchInput.toUpperCase())) {
             //display matching card
             cards[index].classList.remove("hide");
+            found = true; 
         } else {
             //hide others
             cards[index].classList.add("hide");
+            // document.getElementById("places").innerHTML="Not Found";
         }
     });
+if (!found) {
+    alert("No matching results found");
+    // You can replace the alert with your preferred method of displaying a "not found" message
+}
 });
+
+
+
+
+
 //Initially display all places
 window.onload = () => {
     filterPlace("all");
