@@ -26241,3 +26241,76 @@ screen and (max-height: 300px) {
         display: none;
     }
 }
+/* swiper-slide button positioning */
+.button-explore{
+    position: absolute;
+    left: 20.3%;
+}
+.button-git{
+    position: absolute;
+    left: 16%;
+}
+.button-tour{
+    position: absolute;
+    left: 22.95%;
+}
+@media screen and (max-width: 1200px){
+    .button-explore{
+        left: 18%;
+    }
+    .button-git{
+        left: 12.4%;
+    }
+    .button-tour{
+        left: 20.99%;
+    }
+}
+@media screen and (max-width:991px){
+    .button-explore{
+        left: 12%;
+    }
+    .button-git{
+        left: 5.15%;
+    }
+    .button-tour{
+        left: 15%;
+    }
+}
+@media screen and (max-width:767px){
+    .button-explore{
+        left: 19%;
+    }
+    .button-git{
+        left: 14%;
+    }
+    .button-tour{
+        left: 21.99%;
+    }
+}
+@media screen and (max-width: 425px){
+    .button-explore{
+        left: 10%;
+    }
+    .button-git{
+        left: 5%;
+    }
+    .button-tour{
+        left: 14%;
+    }
+}
+@media screen and (max-width: 422px){
+    .button-git{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 375px){
+    .button-explore{
+        left: 27%;
+    }
+    .button-git{
+        left: 27%;
+    }
+    .button-tour{
+        left: 27%;
+    }
+}
