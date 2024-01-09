@@ -17,6 +17,24 @@ body {
     position: relative;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #01b3a7 , #162e44);
+}
+
 .userlink {
     margin-left: 344px;
 }
