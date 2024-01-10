@@ -58,48 +58,57 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "https://csmia.adaniairports.com/discover-mumbai.aspx",
+           
         },
         {
             placeName: "Delhi",
             category: "North",
             price: "12,000",
             image: "delhi_tour.jpg",
+            link : "https://www.delhitourism.gov.in/delhitourism/index.jsp",
         },
         {
             placeName: "Indore",
             category: "Center",
             price: "8,000",
             image: "indore_tour.jpg",
+            link : "https://www.mptourism.com/destination-indore.php",
         },
         {
             placeName: "Kolkata",
             category: "East",
             price: "12,000",
             image: "kolkata_tour.jpg",
+            link : "https://www.fabhotels.com/blog/historical-places-in-kolkata/",
         },
         {
             placeName: "Ahmedabad",
             category: "West",
             price: "11,000",
             image: "ahemdabad_tour.jpg",
+            link : "https://www.tripadvisor.in/Attractions-g297608-Activities-Ahmedabad_Ahmedabad_District_Gujarat.html",
         },
         {
             placeName: "Pune",
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "https://www.holidify.com/places/pune/sightseeing-and-things-to-do.html",
         },
         {
             placeName: "Kolapur",
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "https://www.holidify.com/places/kolhapur/sightseeing-and-things-to-do.html"
         },
         {
             placeName: "Roorkee",
             category: "North",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "https://www.tripadvisor.in/Attractions-g1602172-Activities-Roorkee_Haridwar_District_Uttarakhand.html",
         },
     ],
 };
@@ -111,10 +120,14 @@ for (let i of places.data) {
     //image div
     let imgContainer = document.createElement("div");
     imgContainer.classList.add("img-container");
+    let link = document.createElement("a") ;
+    link.setAttribute("href",i.link);
     //img tag
     let image = document.createElement("img");
     image.setAttribute("src", i.image);
     imgContainer.appendChild(image);
+    link.appendChild(image);
+    imgContainer.appendChild(link);
     card.appendChild(imgContainer);
     //container
     let container = document.createElement("div");
