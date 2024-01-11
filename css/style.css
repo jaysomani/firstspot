@@ -55,16 +55,8 @@ body.offcanvas-menu:before {
     z-index: 99;
     transition: all linear 0.1s;
   }
-  #cursor-blur {
-    height: 500px;
-    width: 500px;
-    background-color: rgba(30, 193, 147, 0.3);
-    border-radius: 50%;
-    position: fixed;
-    filter: blur(80px);
-    z-index: 9;
-    transition: all linear 0.4s;
-  }
+  
+ 
 
 .userlink {
     color: white;
