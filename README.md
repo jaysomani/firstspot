@@ -1,10 +1,9 @@
 # FirstSpot - A Haven for Travelers
 
-## Project Description and Outline
+### PROJECT DESCRIPTION AND OUTLINE
 
-### Introduction
-
-Our website, FirstSpot, is designed for travelers seeking new adventures. With the guidance of our experienced tour guides, explore uncharted destinations or create your unique journey. Embark on a multi-city trip that not only offers relaxation but also adds an extra element of excitement as you explore new destinations on the go.
+##	<b> Introduction <br></b>
+First spot is designed for tourists so they can now explore new destinations where a guide will always be there to help you explore new paths where you can create your paths as well. Planning a multi-city trip helps you relax and stirs in an extra element of excitement since you get to explore new destinations on the go.
 
 ![FirstSpot Image](https://user-images.githubusercontent.com/69755312/194810054-c785c9b6-4dea-46b8-86e6-c19b090de964.png)
 
@@ -27,6 +26,8 @@ Our website, FirstSpot, is designed for travelers seeking new adventures. With t
 The primary aim of our website is to make it easy for travelers to explore, manage plans, and connect with popular tourist guides, ensuring a trip that is easy, convenient, and safe.
 
 
+### ⭐ How to get started with open source?
+<img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
 
 # Getting Started with Open Source
