@@ -26,15 +26,13 @@ First spot is designed for tourists so they can now explore new destinations whe
 The primary aim of our website is to make it easy for travelers to explore, manage plans, and connect with popular tourist guides, ensuring a trip that is easy, convenient, and safe.
 
 
-### ⭐ How to get started with open source?
+# ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
 
-# Getting Started with Open Source
+## Getting Started with Open Source
 
-![Open Source](https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png)
-
-## 🚀 How to Get Started
+### 🚀 How to Get Started
 
 If you're new to open source, these resources will guide you through the basics of Git and GitHub.
 
