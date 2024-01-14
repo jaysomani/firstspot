@@ -13,8 +13,26 @@
 body {
     font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #fff;
-    height: 200vh;
+    height: 50vh;
     position: relative;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #01b3a7 , #162e44);
 }
 
 .userlink {
@@ -49,6 +67,49 @@ body.offcanvas-menu:before {
 
 .userlink {
     color: white;
+}
+
+.userlink {
+    background-color: #4CAF50;  
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-weight: bold; /* Adjust font weight */
+    text-align: center; /* Center text */
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 150px; /* Set a specific width */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown-menu a {
+    color: #333; 
+    padding: 10px 20px; 
+    display: block; 
+    text-decoration: none; 
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #e2f1f9;
+    color: #4CAF50;
+}
+
+.dropdown-menu {
+    margin-top: 8px; 
+}
+.rd-navbar-nav .rd-nav-item.active a {
+    color: #2fbd34;
+}
+
+/* Optional: Background hover effect for the entire navbar item */
+.rd-navbar-nav .rd-nav-item:hover {
+    background-color: #99b9da;
 }
 
 .btn-primary {
@@ -26239,5 +26300,78 @@ screen and (max-height: 300px) {
 @media (max-width: 1199.98px) {
     .banner-top {
         display: none;
+    }
+}
+/* swiper-slide button positioning */
+.button-explore{
+    position: absolute;
+    left: 20.3%;
+}
+.button-git{
+    position: absolute;
+    left: 16%;
+}
+.button-tour{
+    position: absolute;
+    left: 22.95%;
+}
+@media screen and (max-width: 1200px){
+    .button-explore{
+        left: 18%;
+    }
+    .button-git{
+        left: 12.4%;
+    }
+    .button-tour{
+        left: 20.99%;
+    }
+}
+@media screen and (max-width:991px){
+    .button-explore{
+        left: 12%;
+    }
+    .button-git{
+        left: 5.15%;
+    }
+    .button-tour{
+        left: 15%;
+    }
+}
+@media screen and (max-width:767px){
+    .button-explore{
+        left: 19%;
+    }
+    .button-git{
+        left: 14%;
+    }
+    .button-tour{
+        left: 21.99%;
+    }
+}
+@media screen and (max-width: 425px){
+    .button-explore{
+        left: 10%;
+    }
+    .button-git{
+        left: 5%;
+    }
+    .button-tour{
+        left: 14%;
+    }
+}
+@media screen and (max-width: 422px){
+    .button-git{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 375px){
+    .button-explore{
+        left: 27%;
+    }
+    .button-git{
+        left: 27%;
+    }
+    .button-tour{
+        left: 27%;
     }
 }

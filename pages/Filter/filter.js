@@ -90,16 +90,16 @@ let places = {
             image: "pune_tour.jpg",
         },
         {
-            placeName: "Kolapur",
+            placeName: "Bengaluru",
             category: "South",
             price: "15,000",
-            image: "kolapur_tour.jpg",
+            image: "mumbai_tour.jpg",
         },
         {
-            placeName: "Roorkee",
+            placeName: "Haridwar",
             category: "North",
             price: "15,000",
-            image: "roorkee_tour.jpg",
+            image: "mumbai_tour.jpg",
         },
     ],
 };
