@@ -3,16 +3,16 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #01b3a7 !important;
     background-image: url(/images/benimdorm.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .mb-5{
-    background-color: rgba(255, 255, 255, 0.805);
+    background: linear-gradient(to bottom, #8eddef, #f6c7ed);
     padding: 4%;
     width: 30vw;
     height: 65vh;
+    border-radius: 19px;
 }
 h3{
     text-align: center;
@@ -35,11 +35,18 @@ h3{
     text-align: center !important;
 }
 .mb-3{
-    border-radius: 0% !important;
+    border-radius: 8px !important;
     border-width: 0.1rem !important;
     font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-weight: 500;
 }
 .btn{
     font-weight: bolder !important;
+}
+@media screen and (max-width: 600px) {
+    .mb-5 {
+        width: 80%;
+        max-width: none; /* Remove max-width on small screens */
+        height: auto;
+    }
 }

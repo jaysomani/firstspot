@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #01b3a7 !important;
+    background-color: #ffffff !important;
     background-image: url(/images/bg-login.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,10 +11,11 @@ body{
     background-position: 50% 50%;
 }
 .mb-5{
-    background-color: rgba(255, 255, 255, 0.805);
     padding: 4%;
+    border-radius: 19px;
     width: 30vw;
     height: 65vh;
+    background: linear-gradient(to bottom, #8eddef, #f6c7ed);
 }
 h3{
     text-align: center;
@@ -32,16 +33,22 @@ h3{
 }
 .py-1{
     height: 6vh !important;
-    /* background-color: #01b3a7 !important; */
     background-color: rgb(22, 46, 68) !important;
     text-align: center !important;
 }
 .mb-3{
-    border-radius: 0% !important;
+    border-radius: 8px !important;
     border-width: 0.1rem !important;
     font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-weight: 500;
 }
 .btn{
     font-weight: bolder !important;
+}
+@media screen and (max-width: 600px) {
+    .mb-5 {
+        width: 80%;
+        max-width: none; /* Remove max-width on small screens */
+        height: auto;
+    }
 }
