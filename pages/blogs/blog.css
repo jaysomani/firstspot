@@ -1,53 +1,105 @@
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-.header {
+
+.head{
+    background-color:#555;
+    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 1em;
 }
-.header h1 {
-    color: rgb(23, 23, 115);
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-.header p {
-    font-size: 18px;
-    color: #666;
-}
-.nav {
+
+#blog-list {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
-    background-color: #162e44;
+}
+
+.blog-post {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-post img {
     width: 100%;
-    margin-left: -10px;
-    margin-top: -10px;
-}
-.nav a {
-    font-size: 18px;
-    color: #f7efef;
-    text-decoration: none;
-    margin-left: 70px;
-}
-.nav a:hover {
-    color: #666;
-}
-.section {
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-}
-.section h2 {
-    font-size: 24px;
+    height: auto;
+    border-radius: 6px;
     margin-bottom: 10px;
 }
-.section p {
-    font-size: 16px;
-    color: #666;
+
+.blog-post p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#add-blog {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+#add-blog h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#blog-form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
 }

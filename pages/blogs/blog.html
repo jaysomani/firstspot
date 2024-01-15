@@ -3,109 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="blog.css">
-    <script src="blog.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <div class="nav">
-        <a href="/index.html">Home</a>
-        <a href="https://stirring-tartufo-4f55fa.netlify.app/">Explore</a>
-        <a href="../Profile/profile.html">Guide</a>
-        <a href="../blogs/blog.html">Blog</a>
-</div>
-<div class="container">
-    <div class="header">
-        <h1>FirstSpot</h1>
-        <p style="font-size: x-large;">Travel More. Travel Better.</p>
-    </div>
-    <hr><br>
-    <h2 style="font-size: xx-large; text-align: center;">Our Most Popular Posts</h2><br><br>
-    <div class="section">
-        
-        <div class="card" style="display:flex; flex-direction: row;width: 100%;">
-            <img src="images/DSC01015.jpg">
-            <div class="card-content" style="margin-left: 55PX; margin-top: -18PX;letter-spacing: 1.2px;">
-                  <h3>13 WONDERFUL THINGS TO DO IN MEXICO CITY</h3>
-                  <p style="color: #000;">Planning for a trip to Mexico City can be intimidating.
-
-                    A megacity that’s the most populous in North America and one of the largest metropolitan areas in the world, there is simply no way to cover it all in a couple of weeks, let alone a couple of days. </p>
-
-                    <a style="cursor: pointer;color: #9a9898;">Read More →</a>
-            </div>
-        </div><br><br><br>
-
-        <div class="card" style="display:flex; flex-direction: row;width: 100%;letter-spacing: 1.2px;">
-            <img src="images/DSC01652.jpg">
-            <div class="card-content" style="margin-left: 55PX; margin-top: -18PX;">
-                  <h3>THE VALLEY OF THE TEMPLES, SICILY | A COMPLETE GUIDE</h3>
-                  <p style="color: #000;">The Valley of the Temples is a special place.
-
-                    Situated on the dry arid hilltops overlooking the penetrating blues of the Mediterranean sea, these iconic temples have stood strong in the face of the winds, the invasions, the wars,  the sorrows, the eruptions, and the shifting plates and political fortunes of Sicily. </p>
-
-                    <a style="cursor: pointer;color: #9a9898;">Read More →</a>
-            </div>
-        </div><br><br><br>
-
-        <div class="card" style="display:flex; flex-direction: row;width: 100%;letter-spacing: 1.2px;">
-            <img src="images/IMG_1317.jpg">
-            <div class="card-content" style="margin-left: 55PX; margin-top: -18PX;">
-                  <h3>THE ULTIMATE NORTH COAST 500 ROUTE & ITINERARY</h3>
-                  <p style="color: #000;">In the lead up to your own North Coast 500 road trip, a large chunk of your time will spent working out just how to structure your itinerary and trying to answer key questions like...
-
-                    Where to stay each night? What activities can't you miss? Are there any restaurants or distilleries along the way that you simply have to visit? Will you leave enough time for hikes and walks up Munros or to spot some wildlife? Are you being realistic in terms of daily driving times?
-                    
-                    And we’ve got the answers for you!</p>
-
-                    <a style="cursor: pointer;color: #9a9898;">Read More →</a>
-            </div>
-        </div><br><br><br>
-
-        <div class="card" style="display:flex; flex-direction: row;width: 100%; letter-spacing: 1.2px;">
-            <img src="images/IMG_1711.jpg">
-            <div class="card-content" style="margin-left: 55PX; margin-top: -18PX;">
-                  <h3>A GUIDE TO NEW QUAY, WALES | THE PERFECT SEASIDE ESCAPE</h3>
-                  <p style="color: #000;">There are certain scenes, smells and sights that will forever remind us of summer holidays at the British seaside.
-
-                    Fluorescent plastic buckets and spades for sale in the local shop.
-                    
-                    The unmistakable scent of vinegar on fresh fish and chips.
-                    
-                    Slightly old-fashioned but wonderfully kitsch B&Bs overlooking the seafront.
-                    
-                    A sea of pasty-white bodies strewn across the beach, all slowly turning pink under a midday sun.
-                    
-                    Cones of ice cream across faces of children, and in the hands of, well, everyone. </p>
-
-                    <a style="cursor: pointer;color: #9a9898;">Read More →</a>
-            </div> 
-        </div><br><br><br><br><br>
     
-     <div class="card2">
-        <p style="text-align: center; color: #000; font-weight: 700; font-size: x-large;">LOOKING FOR SOMETHING IN PARTICULAR ?</p><br><br>
-        <div class="search-bar">
-            <input type="text"="search-input" placeholder="Search..." style="float: right;
-            padding: 10px;
-            margin-top: 8px;
-            border: 2px solid rgb(222, 202, 72);
-            font-size: 16px;
-            width: 90%;
-            margin-right: 40px;
-            align-items: center;
-            border-radius: 15px;">                
-        </div>
-    </div>    
-    </div><br><hr>
-<br><br><br><br>
-    <p style="text-align: center;letter-spacing: 1.2px;">Please note that some links on our blog are affiliate links.
-
-        If you choose to purchase through these links, we may receive a small commission at no extra cost to you. By using these, you are directly supporting Along Dusty Roads to remain an independent travel blog, and to create free guides to help you travel more, travel better.
-        
-        If you’ve really enjoyed our guides, you can buy us a ‘virtual’ coffee <span style="color: goldenrod; cursor: pointer;"> here.</span> </p>
+        <header class="head">
+            <h1>Travel Blog</h1>
+        </header>
     
-</div><br><br><br><br><br><br><br><br><br>
-
-
+        <section id="blog-list">
+        
+            
+        </section>
+    
+        <section id="add-blog">
+            <h2>Add a Blog</h2>
+            <form id="blog-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+    
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+    
+                <label for="image-url">Image URL:</label>
+                <input type="text" id="image-url" name="image-url" required>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+        <script src="scripts.js"></script>
+    
 </body>
 </html>
