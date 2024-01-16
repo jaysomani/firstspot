@@ -46,6 +46,4 @@ If you're new to open source, these resources will guide you through the basics 
 
 ## Contributing 👨‍💻 
 
-### How to Contribute
-
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for contributing to firstspot.
