@@ -36,7 +36,7 @@ Unacceptable behaviors include, but are not limited to:
 
 ### 5. Reporting and Enforcement
 
-If you witness or experience any behavior that violates this Code of Conduct, please report it by contacting [maintainer's email]. All reports will be kept confidential. The project maintainers reserve the right to take appropriate action, including but not limited to warning, temporary ban, or permanent ban from the project.
+If you witness or experience any behavior that violates this Code of Conduct, please report it by contacting jaysomani2016@gmail.com. All reports will be kept confidential. The project maintainers reserve the right to take appropriate action, including but not limited to warning, temporary ban, or permanent ban from the project.
 
 ### 6. Acknowledgment
 
@@ -48,5 +48,5 @@ This Code of Conduct applies to all project spaces, including GitHub repositorie
 
 ## Contact
 
-For any questions or concerns regarding this Code of Conduct, please contact [maintainer's email].
+For any questions or concerns regarding this Code of Conduct, please contact jaysomani2016@gmail.com.
 
