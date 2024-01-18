@@ -64,6 +64,17 @@ body.offcanvas-menu:before {
 .text-black {
     color: #000 !important;
 }
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: #16abab;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.1s;
+  }
+  
+ 
 
 .userlink {
     color: white;
@@ -26302,6 +26313,7 @@ screen and (max-height: 300px) {
         display: none;
     }
 }
+
 /* swiper-slide button positioning */
 .button-explore{
     position: absolute;
@@ -26375,3 +26387,4 @@ screen and (max-height: 300px) {
         left: 27%;
     }
 }
+
