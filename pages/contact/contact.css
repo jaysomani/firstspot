@@ -297,3 +297,25 @@ small {
   100% {transform: translateY(-8rem) scale(0.3, 0.5);}
 }
 */
+.home-button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem; /* Adjust the right distance as needed */
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.home-button img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    margin-left: 0.5rem; /* Adjust the left margin as needed */
+}
+
+.home-button:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
