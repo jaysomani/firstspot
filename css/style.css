@@ -14584,6 +14584,8 @@ html:not(.lt-ie10) .not-animated {
     animation-name: slideInUp;
 }
 
+
+
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translate3d(0, -100%, 0);
@@ -15102,6 +15104,8 @@ html.tablet .ui-to-top {
 /*
 * @subsection  RD Navbar Static
 */
+
+
 
 .rd-navbar-static {
     display: block;
