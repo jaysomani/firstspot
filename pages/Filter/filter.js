@@ -87,22 +87,23 @@ let places = {
             placeName: "Pune",
             category: "South",
             price: "15,000",
-            image: "mumbai_tour.jpg",
+            image: "pune_tour.jpg",
         },
         {
-            placeName: "Kolapur",
+            placeName: "Bengaluru",
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
         },
         {
-            placeName: "Roorkee",
+            placeName: "Haridwar",
             category: "North",
             price: "15,000",
             image: "mumbai_tour.jpg",
         },
     ],
 };
+
 for (let i of places.data) {
     //Create Card
     let card = document.createElement("div");
