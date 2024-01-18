@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #01b3a7 !important;
-    background-image: url(/images/bg-login.jpg);
+    /* background-image: url(/images/bg-login.jpg); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -12,9 +12,9 @@ body{
 }
 .mb-5{
     background-color: rgba(255, 255, 255, 0.805);
-    padding: 4%;
+    padding: 3%;
     width: 30vw;
-    height: 65vh;
+    height: 70vh;
 }
 h3{
     text-align: center;
@@ -35,6 +35,8 @@ h3{
     /* background-color: #01b3a7 !important; */
     background-color: rgb(22, 46, 68) !important;
     text-align: center !important;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+
 }
 .mb-3{
     border-radius: 0% !important;
