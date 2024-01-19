@@ -58,7 +58,7 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
-            link : "https://csmia.adaniairports.com/discover-mumbai.aspx",
+            
         },
         {
             placeName: "Delhi",
@@ -96,8 +96,6 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
-            link : "https://www.holidify.com/places/pune/sightseeing-and-things-to-do.html",
-
         },
         {
             placeName: "Haridwar",
