@@ -77,7 +77,7 @@ let places = {
             category: "East",
             price: "12,000",
             image: "kolkata_tour.jpg",
-            link : "../pages/cities/kolkata.html",
+            link : "/firstspot/pages/cities/kolkata/kolkata.html",
         },
         {
             placeName: "Ahmedabad",
