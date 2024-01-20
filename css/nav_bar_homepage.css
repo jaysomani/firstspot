@@ -5,7 +5,7 @@
 }
 
 main{
-    margin-top: 4.8%;
+    margin-top: 10vh;
 }
 
 .navbar{
@@ -61,7 +61,7 @@ main{
     align-items: center;
     position: fixed;
     box-shadow: 0.01vw 0.4vh #8d9dafc4;
-    z-index: 2;
+    z-index: 3;
     margin-bottom: 3%;
 }
 
