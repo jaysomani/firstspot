@@ -1,21 +1,92 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
 
 }
 
-.head{
-    background-color:#555;
+.ie-panel {
+    display: none;
+    background: #212121;
+    padding: 10px 0;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+    clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+html.ie-10 .ie-panel,
+html.lt-ie-10 .ie-panel {
+    display: block;
+}
+
+.head {
+   
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+
 }
 
-#blog-list {
+.navbar-main {
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002a43;
+    padding-top: 0px;
+}
+
+
+
+.nav-links {
+    width: 40%;
+    height: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 4px;
+}
+
+.nav-item:hover{
+    font-size: larger;
+    transition: 0.5s;
+    transform: scale(1);
+    
+}
+
+.hover-link {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn{
+    background-color: #01b3a7;
+    padding: 8px 4px 8px 4px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.blog-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -53,28 +124,146 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     font-size: 0.9rem;
     color: #555;
 }
-
-#add-blog {
+.box{
+    padding:10px 0 50px 0;
+}
+.box h1{
+    text-align: center;
+    padding: 20px;
+    color:#002a43;
+    text-shadow: 1px 1px 4px #035889;
+}
+.add-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
+    padding: 20px 0 50px 0;
+    width: 50%;
+    margin: 0 510px 0 510px;
+    border-radius: 20px;
+    background: #ecf0f3;
+  box-shadow: 12px 12px 15px #cbced1, -8px -8px 10px white;
 }
 
-#add-blog h2 {
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-title {
     font-size: 1.5rem;
-    color: #333;
+    font-weight: bolder;
     margin-bottom: 15px;
+    text-align: center;
+    color:#002a43;
+    text-shadow: 1px 1px 4px #223846;
 }
 
+/*
 #blog-form {
     display: grid;
     grid-gap: 15px;
 }
+*/
+
+.blog-form {
+    text-align: left;
+}
+label{
+    font-weight: bolder;
+}
+label,
+input {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
 
 label {
-    display: block;
+    margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input,
+textarea {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    width: 500px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+input {
+    height: 60px;
+}
+textarea{
+    width: 470px;
+    border: none;
+}
+button {
+    color: white;
+    margin-top: 20px;
+    background-color: #555;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+button:hover {
+    box-shadow: none;
+
+    background: #002a43;
+}
+
+.copyright-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+	
+}
+
+.copyright-footer h3{
+	font-size: 20px;
+	color: rgb(33, 28, 28);
+}
+.copyright-footer h3 a{
+	
+	color: rgb(34, 91, 184);
+    text-decoration: none;
+}
+.copyright-footer h3 a:hover{
+	
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+/*
+label {
+    display: flex;
     font-size: 1rem;
     margin-bottom: 5px;
     color: #555;
@@ -85,7 +274,7 @@ textarea {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 4px;
 }
 
@@ -99,7 +288,4 @@ button {
     font-size: 1rem;
     transition: background-color 0.3s;
 }
-
-button:hover {
-    background-color: #555;
-}
+*/
