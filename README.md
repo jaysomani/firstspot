@@ -110,3 +110,17 @@ If you're new to open source, these resources will guide you through the basics 
 10. Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 11. **Congratulations!** You've made your first contribution to [**firstspot**](https://github.com/jaysomani/firstspot/graphs/contributors)! 🙌🏼
+
+<h2>Project Contributors</h2>
+
+<a href="https://github.com/jaysomani/firstspot/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jaysomani/firstspot" />
+</a>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Contributing is fun🧡</h2>
+
+
+
+
