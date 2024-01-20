@@ -24,7 +24,8 @@ First spot is designed for tourists so they can now explore new destinations whe
 ### Objective of the Work
 
 The primary aim of our website is to make it easy for travelers to explore, manage plans, and connect with popular tourist guides, ensuring a trip that is easy, convenient, and safe.
-
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
 
 # ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
@@ -110,16 +111,6 @@ If you're new to open source, these resources will guide you through the basics 
 10. Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 11. **Congratulations!** You've made your first contribution to [**firstspot**](https://github.com/jaysomani/firstspot/graphs/contributors)! 🙌🏼
-
-<h2>Project Contributors</h2>
-
-<a href="https://github.com/jaysomani/firstspot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jaysomani/firstspot" />
-</a>
-
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-<h2>Contributing is fun🧡</h2>
 
 
 
