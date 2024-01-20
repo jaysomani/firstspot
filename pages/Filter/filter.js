@@ -58,6 +58,7 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "/firstspot/pages/cities/mumbai/mumbai.html",
             
         },
         {
