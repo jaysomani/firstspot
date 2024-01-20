@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 10vh;
+}
+
+.navbar{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 21vw;
+}
+
+.navbar .Options{
+    color: #d9e1e2;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    font-size: 0.85em;
+    justify-content: space-between;
+    border-bottom: 0.27em solid #204051;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.9%;
+    padding-bottom: 2.9%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: rgba(36, 80, 89, 0.801);
+    border-bottom-color: rgb(65, 198, 198);
+}
+
+.Dropdown .opt:hover{
+    color: white;
+    background-color: rgba(36, 80, 89, 0.801);
+    border-bottom-color: rgb(65, 198, 198);
+}
+
+.logo{
+    color: #ffefc5;
+    height: 100%;
+    font-size: 2.3em;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#navigate{
+    background-color: rgb(5 40 59 / 89%);
+    height: 9.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0.01vw 0.4vh #8d9dafc4;
+    z-index: 3;
+    margin-bottom: 3%;
+}
+
+.searchbox{
+    position: relative;
+    width: 22vw;
+    height: 50%;
+    display:flex;
+}
+
+#bar{
+    width: 86%;
+    height: 100%;
+    color: rgb(12, 10, 10);
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-color: #ffffff;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#empty{
+    border-color: white;
+    border-radius: 0 15% 15% 0;
+    width:4%;
+    height: 100%;
+    background-color: white;
+}
+
+.searchlogo{
+    color: #594b4b;
+    width: 10%;
+    text-align: center;
+    font-size: 10%;
+    border: 0.1em solid white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: rgb(237, 237, 237);
+    border-radius: 15% 0% 0% 15%;
+}
+
+.response{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 18vw;
+    height: 100%;
+}
+
+.response a{
+    color: rgb(76, 207, 189);
+    display: flex;
+    height: 100%;
+    align-content: center;
+    flex-direction: column;
+    font-size: 0.85em;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 5.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.account{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 0%;
+}
+
+.account .drop_down{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    margin: 9.5vh;
+    height: 220%;
+    width: 13%;
+    overflow: hidden;
+    display: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6%;
+    overflow: hidden;
+}
+
+.drop_down .login div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(47, 99, 112);
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.5px solid rgb(111, 111, 111);
+}
+
+.drop_down .login div a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding-left: 18%;
+    padding-right: 13%;
+    color: white;
+    width: 100%;
+    background-color: rgb(47, 99, 112);
+    padding-bottom: 5%;
+    font-size: 0.85em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.account .person_logo{
+    color: rgb(76, 207, 189);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 0.85em;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 26%;
+    padding-bottom: 42%;
+    padding-left: 20%;
+    padding-right: 20%;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.response a:hover, .person_logo:hover{
+    color: rgb(23, 25, 25);
+    background-color: rgba(25, 67, 89, 0.89);
+}
+
+.login div a:hover{
+    color: black;
+    background-color: rgba(36, 80, 89, 0.801);
+    font-size: 0.77em;
+}
+
+.account:hover .drop_down{
+    display: flex;
+}
+
+.Dropdown .transport{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    margin: 9.6vh;
+    width: 9%;
+    height: 18%;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 2% 5% black;
+    display: none;
+}
+
+.Dropdown .transport .travel{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 2px black;
+}
+
+.Dropdown .opt{
+    color: #d9e1e2;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    font-size: 0.8em;
+    justify-content: space-between;
+    border-bottom: 0.27em solid #204051;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.Dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Dropdown .transport .travel div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 99, 112);
+    width: 100%;
+    height: 100%;
+    border: 10% solid black;
+}
+
+.Dropdown .transport .travel a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #d9e1e2;
+    text-decoration: none;
+    font-size: 0.85em;
+    padding: 10% 27%;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color: rgba(119, 119, 119, 0.400);
+    border-top-color: rgba(119, 119, 119, 0.400);
+    border-bottom-width: 0.2px;
+    border-top-width: 0.2px;
+}
+
+.Dropdown .transport .travel a:hover {
+    color: black;
+    background-color: rgba(36, 80, 89, 0.801);
+}
+
+.Dropdown:hover .transport {
+    display: flex;
+}
