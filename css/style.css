@@ -123,6 +123,44 @@ body.offcanvas-menu:before {
     background-color: #99b9da;
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.search form{
+    display: flex;
+    margin: 0;
+
+}
+
+.search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-right: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+.search input:hover{
+    border: 1px solid #72a0d4;
+
+}
+.search button{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #ccc;
+}
+
 .btn-primary {
     text-align: center;
     font-size: 21px;
