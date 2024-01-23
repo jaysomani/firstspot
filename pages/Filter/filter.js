@@ -58,6 +58,8 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "/firstspot/pages/cities/mumbai/mumbai.html",
+            
         },
         {
             placeName: "Delhi",
@@ -76,6 +78,7 @@ let places = {
             category: "East",
             price: "12,000",
             image: "kolkata_tour.jpg",
+            link : "/firstspot/pages/cities/kolkata/kolkata.html",
         },
         {
             placeName: "Ahmedabad",
@@ -93,16 +96,17 @@ let places = {
             placeName: "Bengaluru",
             category: "South",
             price: "15,000",
-            image: "bengaluru_tour.jpg",
+            image: "mumbai_tour.jpg",
         },
         {
             placeName: "Haridwar",
             category: "North",
-            price: "10,000",
-            image: "haridwar_tour.jpg",
+            price: "15,000",
+            image: "mumbai_tour.jpg",
         },
     ],
 };
+
 for (let i of places.data) {
     //Create Card
     let card = document.createElement("div");
@@ -111,11 +115,18 @@ for (let i of places.data) {
     //image div
     let imgContainer = document.createElement("div");
     imgContainer.classList.add("img-container");
+    let link = document.createElement("a") ;
+    link.setAttribute("href",i.link);
+
     //img tag
     let image = document.createElement("img");
     image.setAttribute("src", i.image);
     imgContainer.appendChild(image);
     card.appendChild(imgContainer);
+    link.appendChild(image);
+    imgContainer.appendChild(link);
+    card.appendChild(imgContainer);
+
     //container
     let container = document.createElement("div");
     container.classList.add("container");
@@ -168,30 +179,18 @@ document.getElementById("search").addEventListener("click", () => {
     let searchInput = document.getElementById("search-input").value;
     let elements = document.querySelectorAll(".place-name");
     let cards = document.querySelectorAll(".card");
-    let found = false;
     //loop through all elements
     elements.forEach((element, index) => {
         //check if text includes the search value
         if (element.innerText.includes(searchInput.toUpperCase())) {
             //display matching card
             cards[index].classList.remove("hide");
-            found = true; 
         } else {
             //hide others
             cards[index].classList.add("hide");
-            // document.getElementById("places").innerHTML="Not Found";
         }
     });
-if (!found) {
-    alert("No matching results found");
-    // You can replace the alert with your preferred method of displaying a "not found" message
-}
 });
-
-
-
-
-
 //Initially display all places
 window.onload = () => {
     filterPlace("all");

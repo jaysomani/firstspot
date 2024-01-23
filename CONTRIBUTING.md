@@ -1,3 +1,4 @@
+
 # Contributing to firstspot
 
 First of all thanks for taking time to contribute!
@@ -99,10 +100,9 @@ git push origin yourBranchName
 ### 11. In your forked repository create a Pull Request(PR)
 See the Pull Requests guidelines [here](#submitting-pull-requests).
 
-**Note:** After making PR wait for the PR to be reviewed.
+**Note:** After making PR wait for the PR to be reviewed and make changes if required.
 
-### 12. Congratulations! You've made your first contribution to firstspot! 🙌🏼
-
+### 12. Congratulations!🎉 You've made your first contribution to firstspot! 🙌🏼
 
 ## Submitting Pull Requests
 When submitting a pull request, please ensure the following:

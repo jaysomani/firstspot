@@ -24,17 +24,16 @@ First spot is designed for tourists so they can now explore new destinations whe
 ### Objective of the Work
 
 The primary aim of our website is to make it easy for travelers to explore, manage plans, and connect with popular tourist guides, ensuring a trip that is easy, convenient, and safe.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
 
-
-### ⭐ How to get started with open source?
+# ⭐ How to get started with open source?
 <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
 
 
-# Getting Started with Open Source
+## Getting Started with Open Source
 
-![Open Source](https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png)
-
-## 🚀 How to Get Started
+### 🚀 How to Get Started
 
 If you're new to open source, these resources will guide you through the basics of Git and GitHub.
 
@@ -47,3 +46,71 @@ If you're new to open source, these resources will guide you through the basics 
 ## Contributing 👨‍💻 
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for contributing to firstspot.
+
+### How to Contribute
+
+1. Explore existing [Issues](https://github.com/jaysomani/firstspot/issues) or [create a new issue](https://github.com/jaysomani/firstspot/issues/new/choose).
+   
+2. [Fork the Repository](https://github.com/jaysomani/firstspot/fork), create a branch for your work, and commit changes.
+
+3. [Create a Pull Request](https://github.com/jaysomani/firstspot/compare) for community review. Add screenshots to showcase your changes.
+
+4. **Don't create PRs without creating an issue and getting assigned.**
+
+### How to Make a Pull Request (PR)
+
+1. Start by making a Fork of the [**firstspot**](https://github.com/jaysomani/firstspot/fork) repository. Click on the ![Fork symbol](https://i.imgur.com/G4z1kEe.png) at the top right corner.
+
+2. Clone your new fork of the repository in the terminal/CLI on your computer:
+
+    ```bash
+    git clone https://github.com/<your-github-username>/firstspot
+    ```
+
+3. Navigate to the newly created `firstspot` project directory:
+
+    ```bash
+    cd firstspot
+    ```
+
+4. Set upstream command:
+
+    ```bash
+    git remote add upstream https://github.com/jaysomani/firstspot
+    ```
+
+5. Create a new branch:
+
+    ```bash
+    git checkout -b YourBranchName
+    ```
+
+6. Sync your fork or your local repository with the origin repository:
+
+    - In your forked repository, click on "Fetch upstream"
+    - Click "Fetch and merge"
+
+7. Make your changes to the source code.
+
+8. Stage your changes and commit:
+
+    ⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
+    ```bash
+    git add public
+    ```
+
+    ```bash
+    git commit -m "<your_commit_message>"
+    ```
+
+9. Push your local commits to the remote repository:
+
+    ```bash
+    git push origin YourBranchName
+    ```
+
+10. Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+11. **Congratulations!** You've made your first contribution to [**firstspot**](https://github.com/jaysomani/firstspot/graphs/contributors)! 🙌🏼
+

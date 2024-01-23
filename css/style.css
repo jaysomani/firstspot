@@ -64,6 +64,17 @@ body.offcanvas-menu:before {
 .text-black {
     color: #000 !important;
 }
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: #16abab;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    transition: all linear 0.1s;
+  }
+  
+ 
 
 .userlink {
     color: white;
@@ -110,6 +121,44 @@ body.offcanvas-menu:before {
 /* Optional: Background hover effect for the entire navbar item */
 .rd-navbar-nav .rd-nav-item:hover {
     background-color: #99b9da;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.search form{
+    display: flex;
+    margin: 0;
+
+}
+
+.search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-right: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+.search input:hover{
+    border: 1px solid #72a0d4;
+
+}
+.search button{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #ccc;
 }
 
 .btn-primary {
@@ -14573,6 +14622,8 @@ html:not(.lt-ie10) .not-animated {
     animation-name: slideInUp;
 }
 
+
+
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translate3d(0, -100%, 0);
@@ -15091,6 +15142,8 @@ html.tablet .ui-to-top {
 /*
 * @subsection  RD Navbar Static
 */
+
+
 
 .rd-navbar-static {
     display: block;
@@ -26302,6 +26355,7 @@ screen and (max-height: 300px) {
         display: none;
     }
 }
+
 /* swiper-slide button positioning */
 .button-explore{
     position: absolute;
@@ -26375,3 +26429,4 @@ screen and (max-height: 300px) {
         left: 27%;
     }
 }
+

@@ -1,6 +1,17 @@
 const sendLetter = document.getElementById("sendLetter");
 const emailInput = document.getElementById("emailInput");
 
+
+function addClass() {
+    document.body.classList.add("sent");
+}
+
+sendLetter.addEventListener("click", addClass);
+
+function goToHome() {
+    window.location.href = "../../index.html";
+}
+
 function addClass(event) {
     event.preventDefault(); // Prevents the default form submission behavior
 
@@ -22,3 +33,4 @@ function isValidEmail(email) {
 }
 
 sendLetter.addEventListener("click", addClass);
+
