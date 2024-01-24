@@ -58,6 +58,8 @@ let places = {
             category: "South",
             price: "15,000",
             image: "mumbai_tour.jpg",
+            link : "/firstspot/pages/cities/mumbai/mumbai.html",
+            
         },
         {
             placeName: "Delhi",
@@ -76,6 +78,7 @@ let places = {
             category: "East",
             price: "12,000",
             image: "kolkata_tour.jpg",
+            link : "/firstspot/pages/cities/kolkata/kolkata.html",
         },
         {
             placeName: "Ahmedabad",
@@ -112,11 +115,18 @@ for (let i of places.data) {
     //image div
     let imgContainer = document.createElement("div");
     imgContainer.classList.add("img-container");
+    let link = document.createElement("a") ;
+    link.setAttribute("href",i.link);
+
     //img tag
     let image = document.createElement("img");
     image.setAttribute("src", i.image);
     imgContainer.appendChild(image);
     card.appendChild(imgContainer);
+    link.appendChild(image);
+    imgContainer.appendChild(link);
+    card.appendChild(imgContainer);
+
     //container
     let container = document.createElement("div");
     container.classList.add("container");
