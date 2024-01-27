@@ -1,30 +1,45 @@
+::-webkit-scrollbar{
+    width: 15px;
+}
 
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #01b3a7 , #162e44);
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
 }
-
+img:hover{
+    transform: scale(1.1);
+    transition:all ease-in-out 0.75s;
+}
 .head{
-    background-color:#555;
+    background-color:#162e44;
     color: white;
     text-align: center;
     padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #blog-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     padding: 20px;
+    flex: 5;
 }
 
 .blog-post {
-    width: 300px;
-    margin: 20px;
+    width: 250px;
+    height: fit-content;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -60,6 +75,10 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
+    flex: 3;
+    height: fit-content;
+    position: sticky;
+    top: 110px;
 }
 
 #add-blog h2 {
@@ -90,10 +109,8 @@ textarea {
 }
 
 button {
-    background-color: #333;
-    color: white;
     padding: 10px 15px;
-    border: none;
+    border-color: black;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
@@ -101,5 +118,15 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #01b3a7;
+    border-color: #01b3a7;
+    
+}
+#blog-page{
+    display: flex;
+}
+@media (max-width: 495px) {
+    #add-blog{
+        display: none;
+    }
 }
