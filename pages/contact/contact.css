@@ -10,7 +10,7 @@ body {
     background-color: #c8e7d8;
     color: #4e5e72;
     text-align: center;
-    font-family: monospace;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     overflow: hidden;
 }
 
@@ -22,7 +22,8 @@ p {
 
 h1 {
     font-size: 2rem;
-    font-family: 'Dancing Script';
+    color:#264a6c;
+    margin:0px 5px 15px 0px;
 }
 
 small {
@@ -33,59 +34,63 @@ small {
 }
 
 textarea,
-input,
-button {
+input {
+    width: 100%;
     line-height: 1.5rem;
-    border: 0;
+    border: solid rgb(185, 182, 182) 2px;
+    border-radius: 10px;
     outline: none;
     font-family: inherit;
     appearance: none;
+    padding: 5px 5px; 
 }
 
+/* 
 textarea,
 input {
     color: #4e5e72;
     background-color: transparent;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(229, 225, 187)' x='0' y='23' width='10' height='1'/></svg>");
-}
+} */
 
 textarea {
-    width: 100%;
     height: 8rem;
     resize: none;
 }
 
 input {
-    width: 50%;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem; 
 }
 
 input[type=text]:invalid,
 [type=email]:invalid {
     box-shadow: none;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgba(240, 132, 114, 0.5)' x='0' y='23' width='10' height='1'/></svg>");
 }
 
+/* button css */
 .button {
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    background-color: rgba(78, 94, 114, 0.5);
-    color: white;
-    font-size: 1rem;
-    transition: background-color 0.2s;
+    padding: 4px 20px;
+    background-color:#04847b ;
+    border: solid #04847b ; 
+    border-radius: 20px;  
+    color: white; 
+    width: 100%;
+    font-size: 1rem; 
+    font-family: inherit;
+    line-height: 1.5rem; 
+    margin:12px 0px 10px 0px;
+    /* background-color: rgba(120, 152, 190, 0.5); */
 }
 
 .button:hover, .button:focus{
-    outline: none;
-        background-color: rgba(78, 94, 114, 1);
+    outline: none; 
+    background-color: #01b3a7;
+    border: solid #01b3a7;
 }
 
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgba(78, 94, 114, 0.3)' x='0' y='23' width='10' height='1'/></svg>");
-    outline: none;
+    outline: none; 
 }
 
 .wrapper {
@@ -96,7 +101,7 @@ textarea:focus {
 .letter {
     position: absolute;
     left: 0;
-    right: 0;
+    right: 0; 
     top: 0;
     width: 30rem;
     margin: auto;
@@ -104,7 +109,7 @@ textarea:focus {
 }
 
 .side {
-    height: 12rem;
+    height: 12.5rem;
     background-color: #fcfcf8;
     outline: 1px solid transparent;
 
