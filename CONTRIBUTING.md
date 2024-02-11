@@ -1,172 +1,112 @@
-# Contributing guidelines
 
-Thank you for taking the time to contribute to the project. Please take a moment to read the following guidelines before contributing:
+# Contributing to firstspot
 
-## Important point to keep in mind before starting ✅
+First of all thanks for taking time to contribute!
 
-- If anything is missing or if you find something that needs to be enhanced/fixed/modified in the project, please feel free to [create an issue.](https://github.com/singodiyashubham87/ScrapeIt/issues/new/choose)
-- Ask to get the issue assigned to you before working on the issue & making a PR.
-- Don't create a PR until the issue is not assigned to you.
-- Mention the issue number in the PRs and describe all the changes that you have made briefly in the PR(if possible attach a screen recording showing the changes you made).
+The following is a set of guidelines for contributing to firstspot.
 
-## How to Contribute? 🤔
+### Table Of Contents
+1. [Code of Conduct](#code-of-conduct)
+2. [Ways to Contribute](#ways-to-contribute)
+3. [How to Contribute](#how-to-contribute)
+4. [Submitting Pull Requests](#submitting-pull-requests)
 
-### Step 1: Fork the Repository
 
-Click on the "Fork" button.
+## Code of Conduct
+This project and everyone participating in it is governed by the [firstspot Code of Conduct](CODE_OF_CONDUCT.md).
 
-By forking the repository, you will have your version of the repository under your GitHub username.
+## Ways to Contribute
 
-Once you have forked your repository, go to your profile inside the repository section, and you will find your forked repository.
+### Code Contributions
 
-### Step 2: Clone the Forked Repository
+- **Fix Bugs:** Identify and fix bugs by submitting pull requests with code changes.
+- **Add Features:** Contribute new features or enhancements to improve the project.
+- **Optimize Code:** Optimize existing code for better performance or readability.
 
-Once you locate your repository, you must clone it to your local machine.
+### Documentation
 
-```sh
-git clone https://github.com/YOUR-USERNAME/firstspot.git
+- **Update Documentation:** Improve and update project documentation, including README files, guides, and inline code comments.
+
+### Issue Reporting
+
+- **Bug Reporting:** Report bugs by creating clear and reproducible bug reports.
+- **Feature Requests:** Share ideas and request new features by opening well-documented issues.
+
+
+## How to Contribute
+
+### 1. Explore existing [Issues](https://github.com/jaysomani/firstspot/issues) or [create a new issue](https://github.com/jaysomani/firstspot/issues/new/choose).
+**Note**: Only start work on the issue after getting assigned by the repository maintainer.
+
+### 2. Fork the Repository.
+Click the "Fork" button on the GitHub repository to create your own copy of the project.
+
+<img width="936" alt="fork" src="https://github.com/jaysomani/firstspot/assets/89672957/e8e98a24-667e-4e1f-8485-13d4ced8fd12">
+
+### 3. Clone Your Fork
+```bash
+git clone https://github.com/<yourusername>/firstspot.git
 ```
 
-Congratulations! You have successfully cloned the repository to your local machine. You can now make changes, add new features, or fix issues in the codebase.
-
-### Step 3: Go to the directory
-```sh
+### 4. Navigate to the newly created firstspot project directory:
+```bash
 cd firstspot
 ```
 
-### Step 4: Install all the dependencies
-```sh
-npm install
+### 5. Set upstream command
+Set the upstream to synchronize your forked repository with the original repository.
+```bash
+git remote add upstream https://github.com/jaysomani/firstspot
 ```
 
-### Step 5: Start the application
-
-```sh
-npm run dev
+### 6. Create a new branch
+```bash
+git checkout -b YourBranchName
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 7. Sync your fork or your local repository with the origin repository
 
-### Step 5: Create a New Branch (important)
+#### Method 1:
+using the Command Line Interface.
+```bash
+git fetch upstream
 
-It's recommended to create a new branch for your changes. This helps keep your modifications separate from the main branch, making it easier to manage and review your contributions.
-
-```sh
-git checkout -b <branch-name>
+git merge upstream/main
 ```
 
-### Step 5: Make Your Changes
+#### Method 2:
+Using the github Graphical User Interface.
+- In your forked repository, click on "Fetch upstream"
+- Click "Fetch and merge"
 
-Make the necessary changes or additions to the codebase.
-Once you have added changes in your local, its time to push them, for that run this command to bring the modification to the staging area.
+### 8. Make your changes to the source code.
 
-### Step 6: Check your changes
-
-```
-git status
-```
-
-```
-git diff
-```
-
-git status: Shows the current status of the repository, including changes, untracked files, and branch information.
-
-git diff: Displays the differences between the working directory and the last commit or between branches.
-
-### Step 10: Stage your changes
-
-```
-git add .
-```
-
-This command is used to stage all the changes in the current directory and it's subdirectories for the next commit. It adds all modified and new files to the staging area, allowing you to include them in the next commit.
-
-**Note:** The . represents the current directory, so git add . includes all files and directories within the current working directory. This means if you are anywhere outside from the directory then the changes would not be staged.
-So make sure you are in correct directory.
-
-
-### Step 7: Commit Your Changes
-
-Commit your changes with a meaningful commit message using the following command: 
-
+### 9. Stage your changes and commit
+⚠️ Make sure not to run the commands git add . or git add *. Instead, stage your changes for each file/folder
 
 ```bash
-  git commit -m "Enter Your message related to what work you did"
+git add <file/folder_you_made_changes_to>
 ```
-(make sure to add a decent commit message to avoid confusion and get your PR merged)
-
-Once you have committed your changes, it's time to push them to your forked repository on GitHub.
-
-### Step 8: Push Your Changes
-
-Use the following command to push your changes:
 
 ```bash
-git push -u origin <branch-name>
+git commit -m  "<your_commit_message>"
 ```
 
-Replace <branch-name> with the name of the branch you created earlier.
+### 10. Push your local commits to the remote repository
+```bash
+git push origin yourBranchName
+```
 
-### Step 9: Make a Pull Request
+### 11. In your forked repository create a Pull Request(PR)
+See the Pull Requests guidelines [here](#submitting-pull-requests).
 
-After pushing your changes, open your forked repository on GitHub in your web browser.
+**Note:** After making PR wait for the PR to be reviewed and make changes if required.
 
-Click on `compare and pull request`
+### 12. Congratulations!🎉 You've made your first contribution to firstspot! 🙌🏼
 
-Provide a clear and informative title and description for your pull request. Explain the changes you have made and why they should be incorporated into the original repository.
+## Submitting Pull Requests
+When submitting a pull request, please ensure the following:
 
-Review your pull request to ensure everything is correct, and then click on the "Create pull request" button to submit it.
-
-### Congratulations! 🎉
-
-Your pull request will now be visible to the maintainers of the original repository. They will review your changes, provide feedback if necessary, and decide whether to merge them into the main branch.
-
-Congratulations! You have successfully created a pull request to contribute your changes to the repository. Remember to monitor the pull request for any updates or feedback from the maintainers.
-
-
-### Commit Message Guidelines using Commitlint
-
-We follow a standardized commit message format using Commitlint to ensure consistency and clarity in our commit history. Each commit message should adhere to the following guidelines:
-
-1. **Type**: The commit type must be one of the following:
-
-   - `feat`: A new feature or enhancement.
-   - `fix`: A bug fix.
-   - `docs`: Documentation changes.
-   - `style`: Code style changes (e.g., formatting, semicolons).
-   - `refactor`: Code refactorings with no feature changes or bug fixes.
-   - `test`: Adding or improving tests.
-   - `chore`: General maintenance tasks, build changes, etc.
-
-2. **Scope** (Optional): The scope provides context for the commit, indicating the specific part of the project being affected. Use a short description in lowercase (e.g., `navbar`, `README`).
-
-3. **Description**: A brief and meaningful description of the changes made. Start with a capital letter and use the imperative mood (e.g., "Add new feature" instead of "Added new feature").
-
-4. **Issue reference** (Optional): Include the issue number associated with the commit (e.g., `#123`).
-
-### Examples:
-
-#### Valid Commit Messages:
-
-- `feat: Add user authentication feature`
-- `docs: Update installation instructions`
-- `style: Format code according to project guidelines`
-- `refactor(navbar): Improve responsiveness`
-- `test: Add unit tests for API endpoints`
-- `chore: Update dependencies to latest versions`
-- `fix: Handle edge case in data processing (#456)`
-
-#### Invalid Commit Messages:
-
-- `Added new stuff`
-- `Fixed a bug`
-- `Updated code`
-- `auth feature update`
-- `chore: fixed some stuff`
-
-
-By following these guidelines, we can maintain a clean commit history that is easy to understand and helps us effectively track changes. If you have any questions or need further assistance, feel free to ask! Happy contributing!
-
-<h3 align="center"> Don't forget to give a ⭐ to this repo !!
-<h1>
+- You have added necessary tests for your changes.
+- The pull request description clearly explains the changes made and the reasoning behind them.
+- Screenshot of the changes.

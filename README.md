@@ -45,6 +45,8 @@ If you're new to open source, these resources will guide you through the basics 
 
 ## Contributing 👨‍💻 
 
+See the [CONTRIBUTING.md](CONTRIBUTING.md) file for contributing to firstspot.
+
 ### How to Contribute
 
 1. Explore existing [Issues](https://github.com/jaysomani/firstspot/issues) or [create a new issue](https://github.com/jaysomani/firstspot/issues/new/choose).
@@ -111,3 +113,4 @@ If you're new to open source, these resources will guide you through the basics 
 10. Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
 11. **Congratulations!** You've made your first contribution to [**firstspot**](https://github.com/jaysomani/firstspot/graphs/contributors)! 🙌🏼
+
