@@ -5,36 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="blog.css">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/> 
+     </head>
 
 <body>
     
         <header class="head">
             <h1>Travel Blog</h1>
         </header>
-    
-        <section id="blog-list">
-        
+        <div id="blog-page">
+            <section id="blog-list" data-masonry='{"percentPosition": true}'>
+                
+                
+            </section>
             
-        </section>
-    
-        <section id="add-blog">
-            <h2>Add a Blog</h2>
-            <form id="blog-form">
-                <label for="title">Title:</label>
-                <input type="text" id="title" name="title" required>
-    
-                <label for="content">Content:</label>
-                <textarea id="content" name="content" rows="4" required></textarea>
-    
-                <label for="image-url">Image URL:</label>
-                <input type="text" id="image-url" name="image-url" required>
-    
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    
+            <section id="add-blog">
+                <h2>Add a Blog</h2>
+                <form id="blog-form">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    
+                    <label for="content">Content:</label>
+                    <textarea id="content" name="content" rows="4" required></textarea>
+                    
+                    <label for="image-url">Image URL:</label>
+                    <input type="text" id="image-url" name="image-url" required>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
         <script src="blog.js"></script>
-    
+        <script src= 
+        "https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" async> 
+            </script>
 </body>
 </html>
