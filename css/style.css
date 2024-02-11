@@ -110,6 +110,23 @@ body.offcanvas-menu:before {
     background-color: #e2f1f9;
     color: #4CAF50;
 }
+.bg{
+    
+    background-color:#e7eaee;
+    object-fit:cover;
+    border-radius:50%;
+    margin-right: 10px;
+
+}
+.item{
+    mix-blend-mode: multiply;
+    
+}
+img{
+    object-fit:cover;
+  border-radius:50%;
+  
+}
 
 .dropdown-menu {
     margin-top: 8px; 
