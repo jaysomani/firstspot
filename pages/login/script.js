@@ -25,6 +25,8 @@ const name = document.getElementById("nameInp");
 const email = document.getElementById("emailInp");
 const username = document.getElementById("userInp");
 const pass = document.getElementById("passInp");
+const confirmPassInp = document.getElementById("confirmPassInp");
+
 const submit = document.getElementById("sub_btn");
 
 // ///////////////////////validation//////////////////////////////////
@@ -39,7 +41,7 @@ function validation() {
     let emailregex = /^[a-zA-Z0-9]+@(gmail|yahoo|outlook)\.com$/;
     let userregex = /^[a-zA-Z0-9]{5,}$/;
 
-    if (isEmptyOrSpaces(name.value) || isEmptyOrSpaces(email.value) || isEmptyOrSpaces(username.value) || isEmptyOrSpaces(pass.value)) {
+    if (isEmptyOrSpaces(name.value) || isEmptyOrSpaces(email.value) || isEmptyOrSpaces(username.value) || isEmptyOrSpaces(pass.value) || isEmptyOrSpaces(confirmPassInp.value)) {
         alert("you cannot left any fields empty")
         return false;
     }
@@ -56,9 +58,48 @@ function validation() {
         alert("-username can only be alphanumeric\n-username must be atleast 5 characters\n");
         return false;
     }
+    if(pass.value!=confirmPassInp.value){
+        alert("Both the passwords are not matching")
+        return false;
+    }
     return true;
 }
 
+// tourist registation password and confirm password toggling effect
+
+//toggling password effect for password
+const togglepassword=document.getElementById("togglePassword")
+togglepassword.addEventListener('click',()=> {
+    const passwordInput = document.getElementById("passInp");
+    const eyeIcon = document.getElementById("eyeIcon");
+
+    if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      eyeIcon.classList.remove("fa-eye");
+      eyeIcon.classList.add("fa-eye-slash");
+    } else {
+      passwordInput.type = "password";
+      eyeIcon.classList.remove("fa-eye-slash");
+      eyeIcon.classList.add("fa-eye");
+    }
+  })
+
+  //toggling password effect for password
+const toggleconfirmpassword=document.getElementById("toggleConfirmPassword")
+toggleconfirmpassword.addEventListener('click',()=> {
+    const passwordInput = document.getElementById("confirmPassInp");
+    const eyeIcon = document.getElementById("confirmEyeIcon");
+
+    if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      eyeIcon.classList.remove("fa-eye");
+      eyeIcon.classList.add("fa-eye-slash");
+    } else {
+      passwordInput.type = "password";
+      eyeIcon.classList.remove("fa-eye-slash");
+      eyeIcon.classList.add("fa-eye");
+    }
+  })
 // ------------------------register user to firebase----------------------------//
 function RegisterUser() {
     if (!validation()) {

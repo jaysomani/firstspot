@@ -10,12 +10,37 @@ body{
     background-size: cover;
     background-position: 50% 50%;
 }
-.mb-5{
+.mb-5-login{
     background-color: rgba(255, 255, 255, 0.805);
     padding: 3%;
     width: 30vw;
     height: 70vh;
 }
+
+.mb-5-register{
+    background-color: rgba(255, 255, 255, 0.805);
+    padding: 3%;
+    width: 30vw;
+    height: 85vh;
+}
+/* css for toggling password visibility */
+.password-container {
+    position: relative;
+}
+
+.password {
+    padding-right: 30px; /* Space for the eye icon */
+}
+
+.togglePassword {
+    position: absolute;
+   
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+/* css for toggling password visibility */
 h3{
     text-align: center;
     /* font-family: "Montserrat", sans-serif, Arial, sans-serif;
