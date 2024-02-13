@@ -1,0 +1,53 @@
+:root{
+    --title-color: black;
+
+}
+.title{
+    color: var(--title-color);
+}
+.dark-class {
+    color: white;
+    background-color: rgb(12, 10, 10);
+    --title-color: white;
+ }
+ 
+ .toggleButton {
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+    display: inline-block;
+ }
+ .toggleButton input {
+    opacity: 0;
+ }
+ .roundButton {
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+ }
+ .roundButton:before {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    background-color: grey;
+    transition: 1s;
+    height: 2rem;
+    width: 2rem;
+ }
+ input:checked+.roundButton {
+    background-color: white;
+ }
+ input:checked+.roundButton:before {
+    transform: translateX(3rem);
+ }
+ .roundButton.circle {
+    border-radius: 2rem;
+ }
+ .roundButton.circle:before {
+    border-radius: 50%;
+ }
