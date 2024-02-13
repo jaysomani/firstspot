@@ -30,7 +30,11 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400" />
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/fonts.css" />
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+  Integrity = "sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+  crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mode.css">
     <style>
         .ie-panel {
             display: none;
@@ -47,6 +51,11 @@
         html.lt-ie-10 .ie-panel {
             display: block;
         }
+        body{
+          color: black;
+         background-color: rgb(241, 241, 241);      
+        }
+       
     </style>
 </head>
 
@@ -107,6 +116,12 @@
                                   </li>
                                   <li class="rd-nav-item">
                                     <a class="rd-nav-link" href="./pages/blogs/blog.html">Blogs</a>
+                                </li>
+                                <li class="rd-nav-item"> 
+                                  <label class = "toggleButton">
+                                    <input type = "checkbox" id = "toggle">
+                                    <div class = "roundButton circle" ></div>
+                                 </label>
                                 </li>
        
                               </ul>
@@ -210,7 +225,7 @@
         <div class="swiper-pagination"></div>
       </section>
       <!-- Section Box Categories-->
-      <section class="section section-lg section-top-1 bg-gray-4">
+      <section class="section section-lg section-top-1 ">
         <div class="container offset-negative-1">
           <div class="box-categories cta-box-wrap">
             <div class="box-categories-content">
@@ -248,13 +263,13 @@
                             </div>
                         </div>
                     </div>
-                    <a class="link-classic wow fadeInUp" href="./pages/Filter/filter.html">Other Tours<span></span
+                    <a class=" title link-classic wow fadeInUp " href="./pages/Filter/filter.html">Other Tours<span></span
           ></a>
                     <!-- Owl Carousel-->
                 </div>
         </section>
         <!-- Discover New Horizons-->
-        <section class="section section-sm section-first bg-default text-md-left">
+        <sectbg-gray-4ion class="section section-sm section-first bg-default text-md-left">
             <div class="container">
                 <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
                     <div class="col-lg-6 text-center wow fadeInUp">
@@ -262,7 +277,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
                         <div class="box-width-lg-470">
-                            <h3>Discover New Horizons</h3>
+                            <h3 class="title">Discover New Horizons</h3>
                             <!-- Bootstrap tabs-->
                             <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left" id="tabs-7">
                                 <!-- Nav tabs-->
@@ -285,7 +300,7 @@
                   <!-- Tab panes-->
                   <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-7-1">
-                      <p style="color: rgb(39, 39, 63);">
+                      <p style="color: rgb(39, 39, 63);" class="title">
                         Welcome to FirstSpot, your premier travel companion dedicated to crafting unforgettable journeys. At FirstSpot, we are driven by the passion for transforming each travel experience into a seamless blend of discovery and joy. Our commitment lies in being your comprehensive travel planning hub, offering a range of services that cater to every facet of your travel needs.
                       </p>
                       <div class="group-md group-middle">
@@ -301,7 +316,7 @@
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tabs-7-2">
-                      <p style="color: rgb(39, 39, 63)">
+                      <p style="color: rgb(39, 39, 63)" class="title">
                         Choose FirstSpot for an unparalleled travel experience. Our innovative matching system ensures personalized tours tailored to your preferences. With a diverse selection of handpicked destinations, highly qualified tour managers, and 24/7 support, we guarantee a seamless and enjoyable journey. Enjoy premium accommodations and our commitment to the best price, promising value for your adventure. Trust FirstSpot as your go-to travel companion for a memorable and stress-free exploration of the world.
                       </p>
                       <div class="group-md group-middle">
@@ -317,7 +332,7 @@
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tabs-7-3">
-                      <p style="color: rgb(39,39,63)">
+                      <p style="color: rgb(39,39,63)" class="title">
                         At FirstSpot, our mission is to be your premier travel facilitator, providing you with curated journeys that align seamlessly with your desires. From meticulously handpicked destinations to expertly crafted itineraries, we're dedicated to delivering more than just a service; we're your gateway to hassle-free, tailored adventures. FirstSpot is committed to providing a comprehensive suite of travel solutions, making every trip a fulfilling and enjoyable exploration. Join us as we pave the way for unforgettable travel experiences tailored to your needs.
                       </p>
                       <div class="group-md group-middle">
@@ -342,7 +357,7 @@
       <!--	Our Services-->
       <section class="section section-sm">
         <div class="container">
-          <h3>Our Services</h3>
+          <h3 class="title">Our Services</h3>
           <div class="row row-30">
             <div class="col-sm-6 col-lg-4">
               <article class="box-icon-classic">
@@ -454,9 +469,9 @@
             </div>
         </section>
         <!-- Hot tours-->
-        <section class="section section-sm bg-default">
+        <section class="section section-sm ">
             <div class="container">
-                <h3 class="oh-desktop">
+                <h3 class="oh-desktop title">
                     <span class="d-inline-block wow slideInDown">Hot Tours</span>
                 </h3>
                 <div class="row row-sm row-40 row-md-50">
@@ -557,7 +572,7 @@
       <!-- Different People-->
       <section class="section section-sm"  id="ourTeam">
         <div class="container">
-          <h3 class="title-block find-car oh">
+          <h3 class=" title  find-car oh">
             <span class="d-inline-block wow slideInUp"
               >Our Team</span
             >
@@ -620,7 +635,7 @@
       </section>
       <!--	Instagrram wondertour-->
       <section
-        class="section section-sm section-top-0 section-fluid section-relative bg-gray-4"
+        class="section section-sm section-top-0 section-fluid section-relative "
       >
         <div class="container-fluid" id="ourGallery">
           <h6 class="gallery-title">Gallery</h6>
@@ -849,6 +864,16 @@
       </footer>
     </div>
     <!-- Global Mailform Output-->
+    <script>
+      // If the input checkbox is checked, activate dark mode by adding dark-class to the body
+      $('#toggle').change(() => {
+         if ($('#toggle').is(":checked")) {
+            $("body").addClass("dark-class");
+         } else {
+            $("body").removeClass("dark-class")
+         }
+      })
+   </script>
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
